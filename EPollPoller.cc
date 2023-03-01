@@ -4,6 +4,7 @@
 
 #include <errno.h>
 #include <unistd.h>
+#include <strings.h>
 
 // channel 未添加到poller中
 const int kNew = -1;  // channel的成员初始化index_ = -1  
@@ -31,7 +32,7 @@ EPollPooller::~EPollPooller()
 Timestamp EPollPooller::poll(int timeoutMs, ChannelList* activeChannels) 
 {       
         // 实际上应该用LOG_DEBUG输出日志更为合理 频繁使用
-        LOG_INFO("func=%s => fd total count:%d\n", channels_.size());
+        LOG_INFO("func=%s => fd total count:%lu \n", __FUNCTION__, channels_.size());
 
         int numEvents = ::epoll_wait(epollfd_, &*events.begin(), static_cast<int>(events_.size()), timeoutMs);
         int saveErrno = errno;
@@ -139,7 +140,7 @@ void EPollPooller::fillActiveChannels(int numEvents, ChannelList* activeChannels
 void EPollPooller::update(int operation, Channel* channel)
 {
         struct epoll_event event;
-        memset(&event, 0, sizeof event);
+        bzero(&event, sizeof(event));
         int fd = channel->fd();
 
         event.events = channel->events();
