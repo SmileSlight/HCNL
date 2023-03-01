@@ -9,7 +9,9 @@
 class EventLoop;
 
 /**
- * EventLoop 包含 Channel 和 Poller （Poller并不拥有Channel，只是持有Channel的裸指针） 《= Reactor 模型上对应 Demultiplex
+ * EventLoop 包含：
+ * ①多个Channel（放入Channellist） 
+ * ②一个Poller （Poller并不拥有Channel，只是持有Channel的裸指针，通过ChannelMap） 《= Reactor 模型上对应 Demultiplex
  * Channel 理解为通道 封装了sockfd和其感兴趣的event，如EPOLLIN、EPOLLOUT事件
  * 还绑定了poller返回的具体事件
 */
