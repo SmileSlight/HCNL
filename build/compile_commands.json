@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Channel.o -c /home/r/Project/HCNL/Channel.cc",
+  "file": "/home/r/Project/HCNL/Channel.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/EventLoop.o -c /home/r/Project/HCNL/EventLoop.cc",
+  "file": "/home/r/Project/HCNL/EventLoop.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/InetAddress.o -c /home/r/Project/HCNL/InetAddress.cc",
+  "file": "/home/r/Project/HCNL/InetAddress.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Logger.o -c /home/r/Project/HCNL/Logger.cc",
+  "file": "/home/r/Project/HCNL/Logger.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/TcpServer.o -c /home/r/Project/HCNL/TcpServer.cc",
+  "file": "/home/r/Project/HCNL/TcpServer.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Timestamp.o -c /home/r/Project/HCNL/Timestamp.cc",
+  "file": "/home/r/Project/HCNL/Timestamp.cc"
+}
+]

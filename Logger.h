@@ -11,8 +11,8 @@
                 Logger &logger = Logger::instance(); \
                 logger.setLogLevel(INFO); \
                 char buf[1024] = {0}; \
-                snaprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
-                Logger.log(buf); \
+                snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
+                logger.log(buf); \
         } while(0)
 
 #define LOG_ERROR(logmsgFormat, ...) \
@@ -21,8 +21,8 @@
                 Logger &logger = Logger::instance(); \
                 logger.setLogLevel(ERROR); \
                 char buf[1024] = {0}; \
-                snaprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
-                Logger.log(buf); \
+                snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
+                logger.log(buf); \
         } while(0)
 
 #define LOG_FATAL(logmsgFormat, ...) \
@@ -31,8 +31,8 @@
                 Logger &logger = Logger::instance(); \
                 logger.setLogLevel(FATAL); \
                 char buf[1024] = {0}; \
-                snaprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
-                Logger.log(buf); \
+                snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
+                logger.log(buf); \
         } while(0)
 
 #ifdef MUDEBUG
@@ -42,8 +42,8 @@
                 Logger &logger = Logger::instance(); \
                 logger.setLogLevel(DEBUG); \
                 char buf[1024] = {0}; \
-                snaprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
-                Logger.log(buf); \
+                snprintf(buf, 1024, logmsgFormat, ##__VA_ARGS__); \
+                logger.log(buf); \
         } while(0)
 #else
         #define LOG_DEBUG(logmsgFormat, ...)
@@ -63,7 +63,7 @@ class Logger
 {
 public:
         // 获取日志唯一的实例对象
-        static Logger& getInstance();
+        static Logger& instance();
         // 设置日志的级别
         void setLogLevel(int level);
         // 写日志
@@ -71,5 +71,4 @@ public:
 private:
         int logLevel_;
         Logger(){};
-
-}
+};

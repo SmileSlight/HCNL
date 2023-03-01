@@ -2,7 +2,7 @@
 #include "Timestamp.h"
 
 // 获取日志唯一的实例对象
-Logger& Logger::getInstance()
+Logger& Logger::instance()
 {
         static Logger logger;
         return logger;
