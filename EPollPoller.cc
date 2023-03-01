@@ -3,6 +3,7 @@
 #include "Channel.h"
 
 #include <errno.h>
+#include <unistd.h>
 
 // channel 未添加到poller中
 const int kNew = -1;  // channel的成员初始化index_ = -1  
