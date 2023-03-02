@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Acceptor.o -c /home/r/Project/HCNL/Acceptor.cc",
+  "file": "/home/r/Project/HCNL/Acceptor.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
   "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Channel.o -c /home/r/Project/HCNL/Channel.cc",
   "file": "/home/r/Project/HCNL/Channel.cc"
 },

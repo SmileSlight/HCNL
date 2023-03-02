@@ -124,6 +124,21 @@ HCNL/fast:
 .PHONY : HCNL/fast
 
 # target to build an object file
+Acceptor.o:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Acceptor.o
+.PHONY : Acceptor.o
+
+# target to preprocess a source file
+Acceptor.i:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Acceptor.i
+.PHONY : Acceptor.i
+
+# target to generate assembly for a file
+Acceptor.s:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Acceptor.s
+.PHONY : Acceptor.s
+
+# target to build an object file
 Channel.o:
 	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Channel.o
 .PHONY : Channel.o
@@ -342,6 +357,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... HCNL"
 	@echo "... edit_cache"
+	@echo "... Acceptor.o"
+	@echo "... Acceptor.i"
+	@echo "... Acceptor.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"

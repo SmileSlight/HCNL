@@ -6,6 +6,32 @@
 
 #IncludeRegexTransform: 
 
+/home/r/Project/HCNL/Acceptor.cc
+Acceptor.h
+/home/r/Project/HCNL/Acceptor.h
+Logger.h
+/home/r/Project/HCNL/Logger.h
+InetAddress.h
+/home/r/Project/HCNL/InetAddress.h
+sys/types.h
+-
+sys/socket.h
+-
+unistd.h
+-
+errno.h
+-
+
+/home/r/Project/HCNL/Acceptor.h
+noncopyable.h
+/home/r/Project/HCNL/noncopyable.h
+Socket.h
+/home/r/Project/HCNL/Socket.h
+Channel.h
+/home/r/Project/HCNL/Channel.h
+functional
+-
+
 /home/r/Project/HCNL/Channel.cc
 Channel.h
 /home/r/Project/HCNL/Channel.h
@@ -206,8 +232,6 @@ sys/socket.h
 strings.h
 -
 netinet/tcp.h
--
-sys/socket.h
 -
 
 /home/r/Project/HCNL/Socket.h
