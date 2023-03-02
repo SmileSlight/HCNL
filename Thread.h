@@ -12,9 +12,9 @@
 class Thread : noncopyable
 {
 public:
-        using Thread = std::function<void()>;
+        using ThreadFunc = std::function<void()>;
 
-        explicit Thread(ThreadFunc func, const std::string& name = std::string());
+        explicit Thread(ThreadFunc, const std::string& name = std::string());
         ~Thread();
 
         void start();
@@ -32,7 +32,7 @@ private:
         bool joined_;
         std::shared_ptr<std::thread> thread_;
         pid_t tid_;
-        Thread threadFunc_;
+        ThreadFunc func_;
         std::string name_;
         static std::atomic_int numCreated_;
 };

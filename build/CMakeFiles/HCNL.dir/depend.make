@@ -35,6 +35,23 @@ CMakeFiles/HCNL.dir/EventLoop.o: ../Poller.h
 CMakeFiles/HCNL.dir/EventLoop.o: ../Timestamp.h
 CMakeFiles/HCNL.dir/EventLoop.o: ../noncopyable.h
 
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../CurrentThread.h
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../EventLoop.h
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../EventLoopThread.cc
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../EventLoopThread.h
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../Thread.h
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../Timestamp.h
+CMakeFiles/HCNL.dir/EventLoopThread.o: ../noncopyable.h
+
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../CurrentThread.h
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../EventLoop.h
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../EventLoopThread.h
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../EventLoopThreadPool.cc
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../EventLoopThreadPool.h
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../Thread.h
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../Timestamp.h
+CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../noncopyable.h
+
 CMakeFiles/HCNL.dir/InetAddress.o: ../InetAddress.cc
 CMakeFiles/HCNL.dir/InetAddress.o: ../InetAddress.h
 
@@ -49,8 +66,19 @@ CMakeFiles/HCNL.dir/Poller.o: ../Poller.h
 CMakeFiles/HCNL.dir/Poller.o: ../Timestamp.h
 CMakeFiles/HCNL.dir/Poller.o: ../noncopyable.h
 
+CMakeFiles/HCNL.dir/Socket.o: ../InetAddress.h
+CMakeFiles/HCNL.dir/Socket.o: ../Logger.h
+CMakeFiles/HCNL.dir/Socket.o: ../Socket.cc
+CMakeFiles/HCNL.dir/Socket.o: ../Socket.h
+CMakeFiles/HCNL.dir/Socket.o: ../noncopyable.h
+
 CMakeFiles/HCNL.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/HCNL.dir/TcpServer.o: ../TcpServer.h
+
+CMakeFiles/HCNL.dir/Thread.o: ../CurrentThread.h
+CMakeFiles/HCNL.dir/Thread.o: ../Thread.cc
+CMakeFiles/HCNL.dir/Thread.o: ../Thread.h
+CMakeFiles/HCNL.dir/Thread.o: ../noncopyable.h
 
 CMakeFiles/HCNL.dir/Timestamp.o: ../Timestamp.cc
 CMakeFiles/HCNL.dir/Timestamp.o: ../Timestamp.h

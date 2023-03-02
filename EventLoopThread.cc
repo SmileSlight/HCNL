@@ -1,8 +1,8 @@
 #include "EventLoopThread.h"
 #include "EventLoop.h"
 
-EventLoopThread::EventLoopThread(const ThreadFunc& cb = ThreadInitCallback(), 
-                const std::string& name = std::string())
+EventLoopThread::EventLoopThread(const ThreadInitCallback &cb, 
+        const std::string& name)
         : loop_(nullptr)
         , exiting_(false)
         , thread_(std::bind(&EventLoopThread::threadFunc, this), name)
@@ -23,7 +23,7 @@ EventLoopThread::~EventLoopThread()
         }
 }
 
-EventLoopThread::EventLoop* startLoop()
+EventLoop* EventLoopThread::startLoop()
 {
         thread_.start();  // 启动底层的新线程
 

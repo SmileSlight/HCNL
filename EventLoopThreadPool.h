@@ -1,5 +1,6 @@
 #pragma once
 
+#include "EventLoopThread.h"
 #include "noncopyable.h"
 
 #include <functional>
@@ -8,14 +9,13 @@
 #include <memory>
 
 class EventLoop;
-class EvebtLoopThread;
 
 class EventLoopThreadPool : noncopyable
 {
 public:
         using ThreadInitCallback = std::function<void(EventLoop*)>;
 
-        EveentLoopThreadPool(EventLoop *baseLoop, const std::string& nameArg);
+        EventLoopThreadPool(EventLoop *baseLoop, const std::string& nameArg);
         ~EventLoopThreadPool();
 
         void setThreadNum(int numThreads) { numThreads_ = numThreads; }

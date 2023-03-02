@@ -3,14 +3,14 @@
 
 #include <semaphore.h>
 
-std::atomic_int Thread::numCreated_ = 0;
+std::atomic_int Thread::numCreated_(0);
 
-Thread::Thread(ThreadFunc func, const std::string& name)
-        : started_(false),
-          joined_(false),
-          func_(std::move(func)),
-          name_(name),
-          tid_(0)
+Thread::Thread(ThreadFunc threadFunc, const std::string &name)
+        : started_(false)
+        , joined_(false)
+        , tid_(0)
+        , func_(std::move(func_))
+        , name_(name)
 {
         setDefaultName();
 } 
@@ -23,7 +23,7 @@ Thread::~Thread()
         }
 }
 
-Thread::void start()  // 一个Thread对象 就是记录一个线程的详细信息
+void Thread::start()  // 一个Thread对象 就是记录一个线程的详细信息
 {
         started_ = true;
         sem_t sem;
@@ -41,7 +41,7 @@ Thread::void start()  // 一个Thread对象 就是记录一个线程的详细信
         sem_wait(&sem);
 }
 
-Thread::void join()
+void Thread::join()
 {
         joined_ = true;
         thread_->join();

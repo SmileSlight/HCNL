@@ -3,7 +3,7 @@
 
 #include <memory>
 
-EveentLoopThreadPool::EveentLoopThreadPool(EventLoop *baseLoop, 
+EventLoopThreadPool::EventLoopThreadPool(EventLoop *baseLoop, 
         const std::string& nameArg)
         : baseLoop_(baseLoop)
         , name_(nameArg)
@@ -14,10 +14,10 @@ EveentLoopThreadPool::EveentLoopThreadPool(EventLoop *baseLoop,
 
 }
 
-EveentLoopThreadPool::~EventLoopThreadPool()
+EventLoopThreadPool::~EventLoopThreadPool()
 {}
 
-void EveentLoopThreadPool::start(const ThreadInitCallback& cb)
+void EventLoopThreadPool::start(const ThreadInitCallback& cb)
 {
         started_ = true;
 
@@ -38,7 +38,7 @@ void EveentLoopThreadPool::start(const ThreadInitCallback& cb)
 }
 
 // 如果工作在多线程中， baseLoop会默认以轮询的方式分配channel给subloop
-EventLoop* EveentLoopThreadPool::getNextLoop()
+EventLoop* EventLoopThreadPool::getNextLoop()
 {
         EventLoop* loop = baseLoop_;
 
@@ -55,7 +55,7 @@ EventLoop* EveentLoopThreadPool::getNextLoop()
         return loop;
 }
 
-std::vector<EventLoop*> EveentLoopThreadPool::getAllLoops()
+std::vector<EventLoop*> EventLoopThreadPool::getAllLoops()
 {
         if (loops_.empty())
         {
