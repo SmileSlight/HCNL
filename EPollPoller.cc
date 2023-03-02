@@ -34,7 +34,7 @@ Timestamp EPollPooller::poll(int timeoutMs, ChannelList* activeChannels)
         // 实际上应该用LOG_DEBUG输出日志更为合理 频繁使用
         LOG_INFO("func=%s => fd total count:%lu \n", __FUNCTION__, channels_.size());
 
-        int numEvents = ::epoll_wait(epollfd_, &*events.begin(), static_cast<int>(events_.size()), timeoutMs);
+        int numEvents = ::epoll_wait(epollfd_, &*events_.begin(), static_cast<int>(events_.size()), timeoutMs);
         int saveErrno = errno;
         Timestamp now(Timestamp::now());
 

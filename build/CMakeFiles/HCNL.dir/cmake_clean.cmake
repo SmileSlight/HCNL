@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HCNL.dir/Channel.o"
+  "CMakeFiles/HCNL.dir/CurrentThread.o"
+  "CMakeFiles/HCNL.dir/DefaultPoller.o"
+  "CMakeFiles/HCNL.dir/EPollPoller.o"
   "CMakeFiles/HCNL.dir/EventLoop.o"
   "CMakeFiles/HCNL.dir/InetAddress.o"
   "CMakeFiles/HCNL.dir/Logger.o"
+  "CMakeFiles/HCNL.dir/Poller.o"
   "CMakeFiles/HCNL.dir/TcpServer.o"
   "CMakeFiles/HCNL.dir/Timestamp.o"
   "../lib/libHCNL.pdb"
