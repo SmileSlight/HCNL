@@ -2,6 +2,7 @@
 
 #include <errno.h>
 #include <sys/uio.h>
+#include <unistd.h>
 
 /*
  * 从fd上读取数据 Poller工作在LT模式
@@ -34,5 +35,15 @@ ssize_t Buffer::readFd(int fd, int *savedErrno)
                 append(extrabuf, n - writable); // 把栈上的内存空间的数据，追加到Buffer缓冲区当中
         }
 
+        return n;
+}
+
+ssize_t Buffer::writeFd(int fd, int *savedErrno)
+{
+        ssize_t n = ::write(fd, peek(), readableBytes()); // 从Buffer缓冲区中读取数据，发送到fd上
+        if (n < 0)
+        {
+                *savedErrno = errno;
+        }
         return n;
 }

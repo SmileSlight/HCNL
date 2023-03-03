@@ -86,7 +86,18 @@ CMakeFiles/HCNL.dir/Socket.o: ../Socket.cc
 CMakeFiles/HCNL.dir/Socket.o: ../Socket.h
 CMakeFiles/HCNL.dir/Socket.o: ../noncopyable.h
 
+CMakeFiles/HCNL.dir/TcpConnection.o: ../Buffer.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../Callbacks.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../Channel.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../CurrentThread.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../EventLoop.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../InetAddress.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../Logger.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../Socket.h
 CMakeFiles/HCNL.dir/TcpConnection.o: ../TcpConnection.cc
+CMakeFiles/HCNL.dir/TcpConnection.o: ../TcpConnection.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../Timestamp.h
+CMakeFiles/HCNL.dir/TcpConnection.o: ../noncopyable.h
 
 CMakeFiles/HCNL.dir/TcpServer.o: ../Acceptor.h
 CMakeFiles/HCNL.dir/TcpServer.o: ../Buffer.h

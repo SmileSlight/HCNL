@@ -39,6 +39,8 @@ errno.h
 -
 sys/uio.h
 -
+unistd.h
+-
 
 /home/r/Project/HCNL/Buffer.h
 vector
@@ -261,10 +263,48 @@ noncopyable.h
 /home/r/Project/HCNL/noncopyable.h
 
 /home/r/Project/HCNL/TcpConnection.cc
+TcpConnection.h
+/home/r/Project/HCNL/TcpConnection.h
+Logger.h
+/home/r/Project/HCNL/Logger.h
+Channel.h
+/home/r/Project/HCNL/Channel.h
+EventLoop.h
+/home/r/Project/HCNL/EventLoop.h
+Socket.h
+/home/r/Project/HCNL/Socket.h
+functional
+-
+errno.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+strings.h
+-
+netinet/tcp.h
+-
+string
+-
 
 /home/r/Project/HCNL/TcpConnection.h
 noncopyable.h
 /home/r/Project/HCNL/noncopyable.h
+InetAddress.h
+/home/r/Project/HCNL/InetAddress.h
+Callbacks.h
+/home/r/Project/HCNL/Callbacks.h
+Buffer.h
+/home/r/Project/HCNL/Buffer.h
+Timestamp.h
+/home/r/Project/HCNL/Timestamp.h
+memory
+-
+string
+-
+atomic
+-
 
 /home/r/Project/HCNL/TcpServer.cc
 TcpServer.h

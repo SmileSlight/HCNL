@@ -40,7 +40,8 @@ public:
         void setConnectionCallback(const ConnectionCallback &cb){ connectionCallback_ = cb; }
         void setMessageCallback(const MessageCallBack &cb){ messageCallBack_ = cb; }
         void setWriteCompleteCallback(const WriteCompleteCallback &cb){ writeCompleteCallback_ = cb; }
-
+        void setHighWaterMarkCallback(const HighWaterMarkCallback &cb, size_t highWaterMark){ highWaterMarkCallback_ = cb; }
+        
         // 设置底层subloop个数
         void setThreadNum(int numThreads);
 
@@ -65,6 +66,7 @@ private:
         ConnectionCallback connectionCallback_; // 有新连接时的回调
         MessageCallBack messageCallBack_; // 有读写消息时的回调
         WriteCompleteCallback writeCompleteCallback_; // 写完成时的回调
+        HighWaterMarkCallback highWaterMarkCallback_; // 高水位回调
 
         ThreadInitCallback threadInitCallback_; // 线程初始化时的回调
 
