@@ -139,6 +139,36 @@ Acceptor.s:
 .PHONY : Acceptor.s
 
 # target to build an object file
+Buffer.o:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Buffer.o
+.PHONY : Buffer.o
+
+# target to preprocess a source file
+Buffer.i:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Buffer.i
+.PHONY : Buffer.i
+
+# target to generate assembly for a file
+Buffer.s:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Buffer.s
+.PHONY : Buffer.s
+
+# target to build an object file
+Callbacks.o:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Callbacks.o
+.PHONY : Callbacks.o
+
+# target to preprocess a source file
+Callbacks.i:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Callbacks.i
+.PHONY : Callbacks.i
+
+# target to generate assembly for a file
+Callbacks.s:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Callbacks.s
+.PHONY : Callbacks.s
+
+# target to build an object file
 Channel.o:
 	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Channel.o
 .PHONY : Channel.o
@@ -304,6 +334,21 @@ Socket.s:
 .PHONY : Socket.s
 
 # target to build an object file
+TcpConnection.o:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/TcpConnection.o
+.PHONY : TcpConnection.o
+
+# target to preprocess a source file
+TcpConnection.i:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/TcpConnection.i
+.PHONY : TcpConnection.i
+
+# target to generate assembly for a file
+TcpConnection.s:
+	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/TcpConnection.s
+.PHONY : TcpConnection.s
+
+# target to build an object file
 TcpServer.o:
 	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/TcpServer.o
 .PHONY : TcpServer.o
@@ -360,6 +405,12 @@ help:
 	@echo "... Acceptor.o"
 	@echo "... Acceptor.i"
 	@echo "... Acceptor.s"
+	@echo "... Buffer.o"
+	@echo "... Buffer.i"
+	@echo "... Buffer.s"
+	@echo "... Callbacks.o"
+	@echo "... Callbacks.i"
+	@echo "... Callbacks.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
@@ -393,6 +444,9 @@ help:
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
+	@echo "... TcpConnection.o"
+	@echo "... TcpConnection.i"
+	@echo "... TcpConnection.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

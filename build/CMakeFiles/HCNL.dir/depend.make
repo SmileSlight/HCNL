@@ -10,6 +10,11 @@ CMakeFiles/HCNL.dir/Acceptor.o: ../Socket.h
 CMakeFiles/HCNL.dir/Acceptor.o: ../Timestamp.h
 CMakeFiles/HCNL.dir/Acceptor.o: ../noncopyable.h
 
+CMakeFiles/HCNL.dir/Buffer.o: ../Buffer.cc
+CMakeFiles/HCNL.dir/Buffer.o: ../Buffer.h
+
+CMakeFiles/HCNL.dir/Callbacks.o: ../Callbacks.cc
+
 CMakeFiles/HCNL.dir/Channel.o: ../Channel.cc
 CMakeFiles/HCNL.dir/Channel.o: ../Channel.h
 CMakeFiles/HCNL.dir/Channel.o: ../CurrentThread.h
@@ -81,8 +86,25 @@ CMakeFiles/HCNL.dir/Socket.o: ../Socket.cc
 CMakeFiles/HCNL.dir/Socket.o: ../Socket.h
 CMakeFiles/HCNL.dir/Socket.o: ../noncopyable.h
 
+CMakeFiles/HCNL.dir/TcpConnection.o: ../TcpConnection.cc
+
+CMakeFiles/HCNL.dir/TcpServer.o: ../Acceptor.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Buffer.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Callbacks.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Channel.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../CurrentThread.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../EventLoop.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../EventLoopThread.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../EventLoopThreadPool.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../InetAddress.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Logger.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Socket.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../TcpConnection.h
 CMakeFiles/HCNL.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/HCNL.dir/TcpServer.o: ../TcpServer.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Thread.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../Timestamp.h
+CMakeFiles/HCNL.dir/TcpServer.o: ../noncopyable.h
 
 CMakeFiles/HCNL.dir/Thread.o: ../CurrentThread.h
 CMakeFiles/HCNL.dir/Thread.o: ../Thread.cc

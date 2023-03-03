@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/r/Project/HCNL/Acceptor.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Acceptor.o"
+  "/home/r/Project/HCNL/Buffer.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Buffer.o"
+  "/home/r/Project/HCNL/Callbacks.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Callbacks.o"
   "/home/r/Project/HCNL/Channel.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Channel.o"
   "/home/r/Project/HCNL/CurrentThread.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/CurrentThread.o"
   "/home/r/Project/HCNL/DefaultPoller.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/DefaultPoller.o"
@@ -16,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/r/Project/HCNL/Logger.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Logger.o"
   "/home/r/Project/HCNL/Poller.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Poller.o"
   "/home/r/Project/HCNL/Socket.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Socket.o"
+  "/home/r/Project/HCNL/TcpConnection.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/TcpConnection.o"
   "/home/r/Project/HCNL/TcpServer.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/TcpServer.o"
   "/home/r/Project/HCNL/Thread.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Thread.o"
   "/home/r/Project/HCNL/Timestamp.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Timestamp.o"

@@ -6,6 +6,16 @@
 },
 {
   "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Buffer.o -c /home/r/Project/HCNL/Buffer.cc",
+  "file": "/home/r/Project/HCNL/Buffer.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Callbacks.o -c /home/r/Project/HCNL/Callbacks.cc",
+  "file": "/home/r/Project/HCNL/Callbacks.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
   "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Channel.o -c /home/r/Project/HCNL/Channel.cc",
   "file": "/home/r/Project/HCNL/Channel.cc"
 },
@@ -58,6 +68,11 @@
   "directory": "/home/r/Project/HCNL/build",
   "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/Socket.o -c /home/r/Project/HCNL/Socket.cc",
   "file": "/home/r/Project/HCNL/Socket.cc"
+},
+{
+  "directory": "/home/r/Project/HCNL/build",
+  "command": "/usr/bin/g++  -DHCNL_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/HCNL.dir/TcpConnection.o -c /home/r/Project/HCNL/TcpConnection.cc",
+  "file": "/home/r/Project/HCNL/TcpConnection.cc"
 },
 {
   "directory": "/home/r/Project/HCNL/build",
