@@ -13,8 +13,6 @@ CMakeFiles/HCNL.dir/Acceptor.o
 CMakeFiles/HCNL.dir/Buffer.o
  /home/r/Project/HCNL/Buffer.cc
  /home/r/Project/HCNL/Buffer.h
-CMakeFiles/HCNL.dir/Callbacks.o
- /home/r/Project/HCNL/Callbacks.cc
 CMakeFiles/HCNL.dir/Channel.o
  /home/r/Project/HCNL/Channel.cc
  /home/r/Project/HCNL/Channel.h

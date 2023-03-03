@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/r/Project/HCNL/Acceptor.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Acceptor.o"
   "/home/r/Project/HCNL/Buffer.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Buffer.o"
-  "/home/r/Project/HCNL/Callbacks.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Callbacks.o"
   "/home/r/Project/HCNL/Channel.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/Channel.o"
   "/home/r/Project/HCNL/CurrentThread.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/CurrentThread.o"
   "/home/r/Project/HCNL/DefaultPoller.cc" "/home/r/Project/HCNL/build/CMakeFiles/HCNL.dir/DefaultPoller.o"

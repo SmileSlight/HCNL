@@ -13,8 +13,6 @@ CMakeFiles/HCNL.dir/Acceptor.o: ../noncopyable.h
 CMakeFiles/HCNL.dir/Buffer.o: ../Buffer.cc
 CMakeFiles/HCNL.dir/Buffer.o: ../Buffer.h
 
-CMakeFiles/HCNL.dir/Callbacks.o: ../Callbacks.cc
-
 CMakeFiles/HCNL.dir/Channel.o: ../Channel.cc
 CMakeFiles/HCNL.dir/Channel.o: ../Channel.h
 CMakeFiles/HCNL.dir/Channel.o: ../CurrentThread.h

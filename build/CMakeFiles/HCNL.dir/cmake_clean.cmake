@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HCNL.dir/Acceptor.o"
   "CMakeFiles/HCNL.dir/Buffer.o"
-  "CMakeFiles/HCNL.dir/Callbacks.o"
   "CMakeFiles/HCNL.dir/Channel.o"
   "CMakeFiles/HCNL.dir/CurrentThread.o"
   "CMakeFiles/HCNL.dir/DefaultPoller.o"

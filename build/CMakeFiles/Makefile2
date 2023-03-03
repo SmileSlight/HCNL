@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/r/Project/HCNL/build
 CMakeFiles/HCNL.dir/all:
 	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/depend
 	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target HCNL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target HCNL"
 .PHONY : CMakeFiles/HCNL.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/HCNL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HCNL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/r/Project/HCNL/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/r/Project/HCNL/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HCNL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/r/Project/HCNL/build/CMakeFiles 0
 .PHONY : CMakeFiles/HCNL.dir/rule

@@ -154,21 +154,6 @@ Buffer.s:
 .PHONY : Buffer.s
 
 # target to build an object file
-Callbacks.o:
-	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Callbacks.o
-.PHONY : Callbacks.o
-
-# target to preprocess a source file
-Callbacks.i:
-	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Callbacks.i
-.PHONY : Callbacks.i
-
-# target to generate assembly for a file
-Callbacks.s:
-	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Callbacks.s
-.PHONY : Callbacks.s
-
-# target to build an object file
 Channel.o:
 	$(MAKE) -f CMakeFiles/HCNL.dir/build.make CMakeFiles/HCNL.dir/Channel.o
 .PHONY : Channel.o
@@ -408,9 +393,6 @@ help:
 	@echo "... Buffer.o"
 	@echo "... Buffer.i"
 	@echo "... Buffer.s"
-	@echo "... Callbacks.o"
-	@echo "... Callbacks.i"
-	@echo "... Callbacks.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
