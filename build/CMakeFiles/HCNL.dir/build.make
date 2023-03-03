@@ -60,15 +60,15 @@ include CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Acceptor.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Acceptor.o: ../Acceptor.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HCNL.dir/Acceptor.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Acceptor.o -c /home/r/Project/HCNL/Acceptor.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Acceptor.o -c /home/r/Project/HCNL/Acceptor.cc
 
 CMakeFiles/HCNL.dir/Acceptor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Acceptor.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Acceptor.cc > CMakeFiles/HCNL.dir/Acceptor.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Acceptor.cc > CMakeFiles/HCNL.dir/Acceptor.i
 
 CMakeFiles/HCNL.dir/Acceptor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Acceptor.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Acceptor.cc -o CMakeFiles/HCNL.dir/Acceptor.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Acceptor.cc -o CMakeFiles/HCNL.dir/Acceptor.s
 
 CMakeFiles/HCNL.dir/Acceptor.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/HCNL.dir/Acceptor.o.provides.build: CMakeFiles/HCNL.dir/Acceptor.o
 CMakeFiles/HCNL.dir/Buffer.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Buffer.o: ../Buffer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HCNL.dir/Buffer.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Buffer.o -c /home/r/Project/HCNL/Buffer.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Buffer.o -c /home/r/Project/HCNL/Buffer.cc
 
 CMakeFiles/HCNL.dir/Buffer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Buffer.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Buffer.cc > CMakeFiles/HCNL.dir/Buffer.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Buffer.cc > CMakeFiles/HCNL.dir/Buffer.i
 
 CMakeFiles/HCNL.dir/Buffer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Buffer.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Buffer.cc -o CMakeFiles/HCNL.dir/Buffer.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Buffer.cc -o CMakeFiles/HCNL.dir/Buffer.s
 
 CMakeFiles/HCNL.dir/Buffer.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/HCNL.dir/Buffer.o.provides.build: CMakeFiles/HCNL.dir/Buffer.o
 CMakeFiles/HCNL.dir/Callbacks.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Callbacks.o: ../Callbacks.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HCNL.dir/Callbacks.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Callbacks.o -c /home/r/Project/HCNL/Callbacks.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Callbacks.o -c /home/r/Project/HCNL/Callbacks.cc
 
 CMakeFiles/HCNL.dir/Callbacks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Callbacks.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Callbacks.cc > CMakeFiles/HCNL.dir/Callbacks.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Callbacks.cc > CMakeFiles/HCNL.dir/Callbacks.i
 
 CMakeFiles/HCNL.dir/Callbacks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Callbacks.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Callbacks.cc -o CMakeFiles/HCNL.dir/Callbacks.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Callbacks.cc -o CMakeFiles/HCNL.dir/Callbacks.s
 
 CMakeFiles/HCNL.dir/Callbacks.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/HCNL.dir/Callbacks.o.provides.build: CMakeFiles/HCNL.dir/Callbacks.o
 CMakeFiles/HCNL.dir/Channel.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Channel.o: ../Channel.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HCNL.dir/Channel.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Channel.o -c /home/r/Project/HCNL/Channel.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Channel.o -c /home/r/Project/HCNL/Channel.cc
 
 CMakeFiles/HCNL.dir/Channel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Channel.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Channel.cc > CMakeFiles/HCNL.dir/Channel.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Channel.cc > CMakeFiles/HCNL.dir/Channel.i
 
 CMakeFiles/HCNL.dir/Channel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Channel.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Channel.cc -o CMakeFiles/HCNL.dir/Channel.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Channel.cc -o CMakeFiles/HCNL.dir/Channel.s
 
 CMakeFiles/HCNL.dir/Channel.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/HCNL.dir/Channel.o.provides.build: CMakeFiles/HCNL.dir/Channel.o
 CMakeFiles/HCNL.dir/CurrentThread.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/CurrentThread.o: ../CurrentThread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HCNL.dir/CurrentThread.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/CurrentThread.o -c /home/r/Project/HCNL/CurrentThread.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/CurrentThread.o -c /home/r/Project/HCNL/CurrentThread.cc
 
 CMakeFiles/HCNL.dir/CurrentThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/CurrentThread.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/CurrentThread.cc > CMakeFiles/HCNL.dir/CurrentThread.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/CurrentThread.cc > CMakeFiles/HCNL.dir/CurrentThread.i
 
 CMakeFiles/HCNL.dir/CurrentThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/CurrentThread.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/CurrentThread.cc -o CMakeFiles/HCNL.dir/CurrentThread.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/CurrentThread.cc -o CMakeFiles/HCNL.dir/CurrentThread.s
 
 CMakeFiles/HCNL.dir/CurrentThread.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/HCNL.dir/CurrentThread.o.provides.build: CMakeFiles/HCNL.dir/CurrentT
 CMakeFiles/HCNL.dir/DefaultPoller.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/DefaultPoller.o: ../DefaultPoller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HCNL.dir/DefaultPoller.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/DefaultPoller.o -c /home/r/Project/HCNL/DefaultPoller.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/DefaultPoller.o -c /home/r/Project/HCNL/DefaultPoller.cc
 
 CMakeFiles/HCNL.dir/DefaultPoller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/DefaultPoller.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/DefaultPoller.cc > CMakeFiles/HCNL.dir/DefaultPoller.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/DefaultPoller.cc > CMakeFiles/HCNL.dir/DefaultPoller.i
 
 CMakeFiles/HCNL.dir/DefaultPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/DefaultPoller.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/DefaultPoller.cc -o CMakeFiles/HCNL.dir/DefaultPoller.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/DefaultPoller.cc -o CMakeFiles/HCNL.dir/DefaultPoller.s
 
 CMakeFiles/HCNL.dir/DefaultPoller.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/HCNL.dir/DefaultPoller.o.provides.build: CMakeFiles/HCNL.dir/DefaultP
 CMakeFiles/HCNL.dir/EPollPoller.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/EPollPoller.o: ../EPollPoller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HCNL.dir/EPollPoller.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EPollPoller.o -c /home/r/Project/HCNL/EPollPoller.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EPollPoller.o -c /home/r/Project/HCNL/EPollPoller.cc
 
 CMakeFiles/HCNL.dir/EPollPoller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/EPollPoller.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EPollPoller.cc > CMakeFiles/HCNL.dir/EPollPoller.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EPollPoller.cc > CMakeFiles/HCNL.dir/EPollPoller.i
 
 CMakeFiles/HCNL.dir/EPollPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/EPollPoller.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EPollPoller.cc -o CMakeFiles/HCNL.dir/EPollPoller.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EPollPoller.cc -o CMakeFiles/HCNL.dir/EPollPoller.s
 
 CMakeFiles/HCNL.dir/EPollPoller.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/HCNL.dir/EPollPoller.o.provides.build: CMakeFiles/HCNL.dir/EPollPolle
 CMakeFiles/HCNL.dir/EventLoop.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/EventLoop.o: ../EventLoop.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/HCNL.dir/EventLoop.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EventLoop.o -c /home/r/Project/HCNL/EventLoop.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EventLoop.o -c /home/r/Project/HCNL/EventLoop.cc
 
 CMakeFiles/HCNL.dir/EventLoop.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/EventLoop.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EventLoop.cc > CMakeFiles/HCNL.dir/EventLoop.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EventLoop.cc > CMakeFiles/HCNL.dir/EventLoop.i
 
 CMakeFiles/HCNL.dir/EventLoop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/EventLoop.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EventLoop.cc -o CMakeFiles/HCNL.dir/EventLoop.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EventLoop.cc -o CMakeFiles/HCNL.dir/EventLoop.s
 
 CMakeFiles/HCNL.dir/EventLoop.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/HCNL.dir/EventLoop.o.provides.build: CMakeFiles/HCNL.dir/EventLoop.o
 CMakeFiles/HCNL.dir/EventLoopThread.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/EventLoopThread.o: ../EventLoopThread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HCNL.dir/EventLoopThread.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EventLoopThread.o -c /home/r/Project/HCNL/EventLoopThread.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EventLoopThread.o -c /home/r/Project/HCNL/EventLoopThread.cc
 
 CMakeFiles/HCNL.dir/EventLoopThread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/EventLoopThread.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EventLoopThread.cc > CMakeFiles/HCNL.dir/EventLoopThread.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EventLoopThread.cc > CMakeFiles/HCNL.dir/EventLoopThread.i
 
 CMakeFiles/HCNL.dir/EventLoopThread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/EventLoopThread.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EventLoopThread.cc -o CMakeFiles/HCNL.dir/EventLoopThread.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EventLoopThread.cc -o CMakeFiles/HCNL.dir/EventLoopThread.s
 
 CMakeFiles/HCNL.dir/EventLoopThread.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/HCNL.dir/EventLoopThread.o.provides.build: CMakeFiles/HCNL.dir/EventL
 CMakeFiles/HCNL.dir/EventLoopThreadPool.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/EventLoopThreadPool.o: ../EventLoopThreadPool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/HCNL.dir/EventLoopThreadPool.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EventLoopThreadPool.o -c /home/r/Project/HCNL/EventLoopThreadPool.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/EventLoopThreadPool.o -c /home/r/Project/HCNL/EventLoopThreadPool.cc
 
 CMakeFiles/HCNL.dir/EventLoopThreadPool.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/EventLoopThreadPool.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EventLoopThreadPool.cc > CMakeFiles/HCNL.dir/EventLoopThreadPool.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/EventLoopThreadPool.cc > CMakeFiles/HCNL.dir/EventLoopThreadPool.i
 
 CMakeFiles/HCNL.dir/EventLoopThreadPool.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/EventLoopThreadPool.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EventLoopThreadPool.cc -o CMakeFiles/HCNL.dir/EventLoopThreadPool.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/EventLoopThreadPool.cc -o CMakeFiles/HCNL.dir/EventLoopThreadPool.s
 
 CMakeFiles/HCNL.dir/EventLoopThreadPool.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/HCNL.dir/EventLoopThreadPool.o.provides.build: CMakeFiles/HCNL.dir/Ev
 CMakeFiles/HCNL.dir/InetAddress.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/InetAddress.o: ../InetAddress.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/HCNL.dir/InetAddress.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/InetAddress.o -c /home/r/Project/HCNL/InetAddress.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/InetAddress.o -c /home/r/Project/HCNL/InetAddress.cc
 
 CMakeFiles/HCNL.dir/InetAddress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/InetAddress.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/InetAddress.cc > CMakeFiles/HCNL.dir/InetAddress.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/InetAddress.cc > CMakeFiles/HCNL.dir/InetAddress.i
 
 CMakeFiles/HCNL.dir/InetAddress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/InetAddress.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/InetAddress.cc -o CMakeFiles/HCNL.dir/InetAddress.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/InetAddress.cc -o CMakeFiles/HCNL.dir/InetAddress.s
 
 CMakeFiles/HCNL.dir/InetAddress.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/HCNL.dir/InetAddress.o.provides.build: CMakeFiles/HCNL.dir/InetAddres
 CMakeFiles/HCNL.dir/Logger.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Logger.o: ../Logger.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/HCNL.dir/Logger.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Logger.o -c /home/r/Project/HCNL/Logger.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Logger.o -c /home/r/Project/HCNL/Logger.cc
 
 CMakeFiles/HCNL.dir/Logger.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Logger.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Logger.cc > CMakeFiles/HCNL.dir/Logger.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Logger.cc > CMakeFiles/HCNL.dir/Logger.i
 
 CMakeFiles/HCNL.dir/Logger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Logger.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Logger.cc -o CMakeFiles/HCNL.dir/Logger.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Logger.cc -o CMakeFiles/HCNL.dir/Logger.s
 
 CMakeFiles/HCNL.dir/Logger.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/HCNL.dir/Logger.o.provides.build: CMakeFiles/HCNL.dir/Logger.o
 CMakeFiles/HCNL.dir/Poller.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Poller.o: ../Poller.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/HCNL.dir/Poller.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Poller.o -c /home/r/Project/HCNL/Poller.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Poller.o -c /home/r/Project/HCNL/Poller.cc
 
 CMakeFiles/HCNL.dir/Poller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Poller.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Poller.cc > CMakeFiles/HCNL.dir/Poller.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Poller.cc > CMakeFiles/HCNL.dir/Poller.i
 
 CMakeFiles/HCNL.dir/Poller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Poller.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Poller.cc -o CMakeFiles/HCNL.dir/Poller.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Poller.cc -o CMakeFiles/HCNL.dir/Poller.s
 
 CMakeFiles/HCNL.dir/Poller.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/HCNL.dir/Poller.o.provides.build: CMakeFiles/HCNL.dir/Poller.o
 CMakeFiles/HCNL.dir/Socket.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Socket.o: ../Socket.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/HCNL.dir/Socket.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Socket.o -c /home/r/Project/HCNL/Socket.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Socket.o -c /home/r/Project/HCNL/Socket.cc
 
 CMakeFiles/HCNL.dir/Socket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Socket.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Socket.cc > CMakeFiles/HCNL.dir/Socket.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Socket.cc > CMakeFiles/HCNL.dir/Socket.i
 
 CMakeFiles/HCNL.dir/Socket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Socket.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Socket.cc -o CMakeFiles/HCNL.dir/Socket.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Socket.cc -o CMakeFiles/HCNL.dir/Socket.s
 
 CMakeFiles/HCNL.dir/Socket.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/HCNL.dir/Socket.o.provides.build: CMakeFiles/HCNL.dir/Socket.o
 CMakeFiles/HCNL.dir/TcpConnection.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/TcpConnection.o: ../TcpConnection.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/HCNL.dir/TcpConnection.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/TcpConnection.o -c /home/r/Project/HCNL/TcpConnection.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/TcpConnection.o -c /home/r/Project/HCNL/TcpConnection.cc
 
 CMakeFiles/HCNL.dir/TcpConnection.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/TcpConnection.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/TcpConnection.cc > CMakeFiles/HCNL.dir/TcpConnection.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/TcpConnection.cc > CMakeFiles/HCNL.dir/TcpConnection.i
 
 CMakeFiles/HCNL.dir/TcpConnection.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/TcpConnection.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/TcpConnection.cc -o CMakeFiles/HCNL.dir/TcpConnection.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/TcpConnection.cc -o CMakeFiles/HCNL.dir/TcpConnection.s
 
 CMakeFiles/HCNL.dir/TcpConnection.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/HCNL.dir/TcpConnection.o.provides.build: CMakeFiles/HCNL.dir/TcpConne
 CMakeFiles/HCNL.dir/TcpServer.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/TcpServer.o: ../TcpServer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/HCNL.dir/TcpServer.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/TcpServer.o -c /home/r/Project/HCNL/TcpServer.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/TcpServer.o -c /home/r/Project/HCNL/TcpServer.cc
 
 CMakeFiles/HCNL.dir/TcpServer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/TcpServer.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/TcpServer.cc > CMakeFiles/HCNL.dir/TcpServer.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/TcpServer.cc > CMakeFiles/HCNL.dir/TcpServer.i
 
 CMakeFiles/HCNL.dir/TcpServer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/TcpServer.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/TcpServer.cc -o CMakeFiles/HCNL.dir/TcpServer.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/TcpServer.cc -o CMakeFiles/HCNL.dir/TcpServer.s
 
 CMakeFiles/HCNL.dir/TcpServer.o.requires:
 
@@ -444,15 +444,15 @@ CMakeFiles/HCNL.dir/TcpServer.o.provides.build: CMakeFiles/HCNL.dir/TcpServer.o
 CMakeFiles/HCNL.dir/Thread.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Thread.o: ../Thread.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/HCNL.dir/Thread.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Thread.o -c /home/r/Project/HCNL/Thread.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Thread.o -c /home/r/Project/HCNL/Thread.cc
 
 CMakeFiles/HCNL.dir/Thread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Thread.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Thread.cc > CMakeFiles/HCNL.dir/Thread.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Thread.cc > CMakeFiles/HCNL.dir/Thread.i
 
 CMakeFiles/HCNL.dir/Thread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Thread.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Thread.cc -o CMakeFiles/HCNL.dir/Thread.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Thread.cc -o CMakeFiles/HCNL.dir/Thread.s
 
 CMakeFiles/HCNL.dir/Thread.o.requires:
 
@@ -468,15 +468,15 @@ CMakeFiles/HCNL.dir/Thread.o.provides.build: CMakeFiles/HCNL.dir/Thread.o
 CMakeFiles/HCNL.dir/Timestamp.o: CMakeFiles/HCNL.dir/flags.make
 CMakeFiles/HCNL.dir/Timestamp.o: ../Timestamp.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/Project/HCNL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/HCNL.dir/Timestamp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Timestamp.o -c /home/r/Project/HCNL/Timestamp.cc
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HCNL.dir/Timestamp.o -c /home/r/Project/HCNL/Timestamp.cc
 
 CMakeFiles/HCNL.dir/Timestamp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HCNL.dir/Timestamp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Timestamp.cc > CMakeFiles/HCNL.dir/Timestamp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/Project/HCNL/Timestamp.cc > CMakeFiles/HCNL.dir/Timestamp.i
 
 CMakeFiles/HCNL.dir/Timestamp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HCNL.dir/Timestamp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Timestamp.cc -o CMakeFiles/HCNL.dir/Timestamp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/Project/HCNL/Timestamp.cc -o CMakeFiles/HCNL.dir/Timestamp.s
 
 CMakeFiles/HCNL.dir/Timestamp.o.requires:
 
