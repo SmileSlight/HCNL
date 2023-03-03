@@ -311,7 +311,11 @@ TcpServer.h
 /home/r/Project/HCNL/TcpServer.h
 Logger.h
 /home/r/Project/HCNL/Logger.h
+TcpConnection.h
+/home/r/Project/HCNL/TcpConnection.h
 functional
+-
+strings.h
 -
 
 /home/r/Project/HCNL/TcpServer.h

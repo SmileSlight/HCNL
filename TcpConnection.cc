@@ -250,6 +250,7 @@ void TcpConnection::handleWrite()
         
 }
 
+// poller => channel::closeCallback => TcpConnection::handleClose => TcpConnection::connectionCallback_ => TcpServer::closeCallback_
 void TcpConnection::handleClose()
 {
         LOG_INFO("TcpConnection::handleClose fd = %d state = %d \n", channel_->fd(), (int)state_);
@@ -258,7 +259,7 @@ void TcpConnection::handleClose()
 
         TcpConnectionPtr connPtr(shared_from_this());
         connectionCallback_(connPtr); // 执行连接关闭的回调
-        closeCallback_(connPtr); // 关闭连接的回调
+        closeCallback_(connPtr); // 关闭连接的回调 执行的是TcpServer::removeConnection回调方法
 }
 
 void TcpConnection::handleError()
