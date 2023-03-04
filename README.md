@@ -1,2 +1,2 @@
 # HCNL
-HCNl is a highly concurrent network library based on coroutines .
+HCNL is a network library that rewrites the muduo core module TcpServer based on C++11
